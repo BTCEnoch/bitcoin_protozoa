@@ -1,0 +1,41 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "source": {
+    "include": ["src"],
+    "includePattern": "\\.(jsx|js|ts|tsx)$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": [
+    "plugins/markdown",
+    "better-docs/typescript"
+  ],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true,
+      "includeDate": false
+    }
+  },
+  "opts": {
+    "destination": "./docs/api",
+    "encoding": "utf8",
+    "private": true,
+    "recurse": true,
+    "template": "./node_modules/better-docs"
+  },
+  "better-docs": {
+    "name": "Bitcoin Protozoa API Documentation",
+    "title": "Bitcoin Protozoa API Documentation",
+    "hideGenerator": true,
+    "navLinks": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/username/bitcoin-protozoa"
+      }
+    ]
+  }
+}

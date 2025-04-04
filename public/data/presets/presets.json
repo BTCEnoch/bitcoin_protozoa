@@ -1,0 +1,37 @@
+{
+  "presets": [
+    {
+      "id": "default",
+      "name": "Default",
+      "particleCount": 500,
+      "groups": 5,
+      "forces": {
+        "attraction": 0.1,
+        "repulsion": 0.05,
+        "alignment": 0.1
+      }
+    },
+    {
+      "id": "dense",
+      "name": "Dense",
+      "particleCount": 500,
+      "groups": 5,
+      "forces": {
+        "attraction": 0.2,
+        "repulsion": 0.02,
+        "alignment": 0.15
+      }
+    },
+    {
+      "id": "sparse",
+      "name": "Sparse",
+      "particleCount": 500,
+      "groups": 5,
+      "forces": {
+        "attraction": 0.05,
+        "repulsion": 0.1,
+        "alignment": 0.05
+      }
+    }
+  ]
+}

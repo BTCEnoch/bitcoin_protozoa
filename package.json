@@ -1,0 +1,52 @@
+{
+  "name": "bitcoin-protozoa",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "docs": "node scripts/documentation/generate-api-docs.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@react-three/drei": "^9.80.7",
+    "@react-three/fiber": "8.13.7",
+    "git": "^0.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "scheduler": "0.23.0",
+    "shader-composer": "0.4.3",
+    "three": "0.163.0",
+    "vfx-composer": "0.4.0",
+    "zustand": "4.4.6"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/three": "^0.152.1",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "jsdoc": "^4.0.2",
+    "jsdoc-plugin-typescript": "^2.2.1",
+    "jsdom": "^21.1.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.2",
+    "vitest": "^0.30.1"
+  }
+}

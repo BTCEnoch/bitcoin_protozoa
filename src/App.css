@@ -1,0 +1,81 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.controls {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 1rem;
+  min-width: 200px;
+}
+
+.controls label:has(input[type="checkbox"]) {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.controls input {
+  margin-top: 0.5rem;
+  width: 200px;
+}
+
+.info {
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: left;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.role-list {
+  list-style: none;
+  padding: 0;
+}
+
+.role-list li {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.role-color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.role-color.core {
+  background-color: rgb(255, 204, 51); /* Golden */
+}
+
+.role-color.control {
+  background-color: rgb(51, 153, 255); /* Blue */
+}
+
+.role-color.movement {
+  background-color: rgb(51, 204, 128); /* Green */
+}
+
+.role-color.defense {
+  background-color: rgb(102, 77, 204); /* Purple */
+}
+
+.role-color.attack {
+  background-color: rgb(255, 51, 51); /* Red */
+}

@@ -1,0 +1,23 @@
+/**
+ * Global styles for ShaderGenerator component
+ */
+
+.shadergenerator {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.shadergenerator__header {
+  margin-bottom: 1rem;
+}
+
+.shadergenerator__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f7931a;
+}
+
+.shadergenerator__content {
+  flex: 1;
+}

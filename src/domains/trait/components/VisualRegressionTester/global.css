@@ -1,0 +1,23 @@
+/**
+ * Global styles for VisualRegressionTester component
+ */
+
+.visualregressiontester {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.visualregressiontester__header {
+  margin-bottom: 1rem;
+}
+
+.visualregressiontester__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f7931a;
+}
+
+.visualregressiontester__content {
+  flex: 1;
+}
