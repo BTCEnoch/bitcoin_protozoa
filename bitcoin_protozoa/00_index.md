@@ -66,7 +66,10 @@ bitcoin_protozoa/
 │   ├── 03_formation_patterns.md # Formation pattern traits
 │   ├── 04_behavior_traits.md  # Behavior traits
 │   ├── 05_force_field_traits.md # Force field traits
-│   └── 06_trait_system.md     # Comprehensive trait system
+│   ├── 06_trait_system.md     # Comprehensive trait system
+│   ├── 07_role_formation_traits.md # Role-based formation traits
+│   ├── 08_role_behavior_traits.md # Role-based behavior traits
+│   └── 09_mutation_traits.md # Mutation traits
 └── project/                   # Project management documentation
     ├── 01_project_checklist.md # Project requirements checklist
     ├── 02_project_inventory.md # Documentation inventory
@@ -145,9 +148,14 @@ The testing documentation covers the testing strategy and error handling:
 
 ## Traits
 
-The traits documentation covers the trait system and color palettes for particle groups:
+The traits documentation covers the trait system and visual characteristics for particle groups:
 
 - [Color Palettes](traits/01_color_palettes.md) - Color palettes for particle groups
+- [Particle Shapes](traits/02_particle_shapes.md) - Particle shape traits
+- [Formation Patterns](traits/03_formation_patterns.md) - Formation pattern traits
+- [Role Formation Traits](traits/07_role_formation_traits.md) - Role-based formation traits
+- [Role Behavior Traits](traits/08_role_behavior_traits.md) - Role-based behavior traits
+- [Mutation Traits](traits/09_mutation_traits.md) - Mutation traits across rarity tiers
 
 ## Project Management
 
@@ -160,6 +168,7 @@ The project management documentation covers project tracking and requirements:
 - [Dependency Inventory](project/06_dependency_inventory.md) - Inventory of dependencies and inscription IDs
 - [Script-Based Implementation](project/07_script_based_implementation.md) - Script-based implementation approach
 - [Phase Implementation Template](project/08_phase_implementation_template.md) - Template flow for implementing each phase
+- [Phase Q&A Answers](project/09_phase_qa_answers.md) - Answers to phase-specific Q&A questions
 
 ## How to Use This Documentation
 

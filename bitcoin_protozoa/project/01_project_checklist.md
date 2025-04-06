@@ -297,6 +297,45 @@ Before beginning Phase 3, consider the following questions:
 - [x] Implement shape assignment to particles
 - [ ] Implement shape transitions and effects
 
+#### Formation Traits Implementation
+
+- [ ] Implement role-based formation traits system
+- [ ] Implement formation trait generation from Bitcoin data
+- [ ] Implement formation trait assignment to particle roles
+- [ ] Implement formation trait rarity tiers (Common, Uncommon, Rare, Epic, Legendary, Mythic)
+- [ ] Implement CORE role formations (15 formations across rarity tiers)
+- [ ] Implement CONTROL role formations (15 formations across rarity tiers)
+- [ ] Implement MOVEMENT role formations (15 formations across rarity tiers)
+- [ ] Implement DEFENSE role formations (15 formations across rarity tiers)
+- [ ] Implement ATTACK role formations (15 formations across rarity tiers)
+
+#### Behavior Traits Implementation
+
+- [ ] Implement role-based behavior traits system
+- [ ] Implement behavior trait generation from Bitcoin data
+- [ ] Implement behavior trait assignment to particle roles
+- [ ] Implement behavior trait rarity tiers (Common, Uncommon, Rare, Epic, Legendary, Mythic)
+- [ ] Implement CORE role behaviors (15 behaviors across rarity tiers)
+- [ ] Implement CONTROL role behaviors (15 behaviors across rarity tiers)
+- [ ] Implement MOVEMENT role behaviors (15 behaviors across rarity tiers)
+- [ ] Implement DEFENSE role behaviors (15 behaviors across rarity tiers)
+- [ ] Implement ATTACK role behaviors (15 behaviors across rarity tiers)
+
+#### Mutation Traits Implementation
+
+- [ ] Implement mutation traits system
+- [ ] Implement mutation trait generation from Bitcoin confirmation data
+- [ ] Implement mutation trait assignment based on rarity tiers
+- [ ] Implement mutation trait rarity tiers (Common, Uncommon, Rare, Epic, Legendary, Mythic)
+- [ ] Implement Single-Group Boost mutations (85 mutations)
+- [ ] Implement Multi-Group Boost mutations (46 mutations)
+- [ ] Implement Global Boost mutations (23 mutations)
+- [ ] Implement Special Effect mutations (16 mutations)
+- [ ] Implement Particle Count Bonus mutations (5 mutations)
+- [ ] Implement mutation stacking rules
+- [ ] Implement particle count caps for mutations
+- [ ] Implement mutation visualization in UI
+
 #### Visual Effects Implementation
 
 - [x] Implement particle glow effects
@@ -338,6 +377,10 @@ Before beginning Phase 3, consider the following questions:
 
 - [Color Palettes](../traits/01_color_palettes.md) - For color palette design
 - [Particle Shapes](../traits/02_particle_shapes.md) - For particle shape design
+- [Formation Patterns](../traits/03_formation_patterns.md) - For formation pattern design
+- [Role Formation Traits](../traits/07_role_formation_traits.md) - For role-based formation traits
+- [Role Behavior Traits](../traits/08_role_behavior_traits.md) - For role-based behavior traits
+- [Mutation Traits](../traits/09_mutation_traits.md) - For mutation traits across rarity tiers
 - [Visual Design](../ui/02_visual_design.md) - For visual design guidelines
 - [Color Themes](../ui/03_color_themes.md) - For color theme design
 - [Trait System](../bitcoin/07_trait_system.md) - For trait system design
@@ -377,22 +420,70 @@ Before beginning Phase 4, consider the following questions:
 4. How will roles be assigned based on Bitcoin data?
 5. How will role-based interactions be implemented?
 
+**Answers**: See [Phase Q&A Answers](./09_phase_qa_answers.md#phase-4-particle-roles-and-hierarchy)
+
 ### Phase 4 Tasks
+
+#### Script-Based Implementation
+
+- [x] Create script generator for Phase 4
+- [x] Generate scripts for Phase 4 implementation
+- [ ] Execute scripts to implement Phase 4
+- [ ] Test Phase 4 implementation
+- [ ] Update documentation for Phase 4
 
 #### Role Definition Implementation
 
-- [ ] Implement CORE role with central, stabilizing behavior
-- [ ] Implement CONTROL role with directive, coordinating behavior
-- [ ] Implement MOVEMENT role with propulsive, navigational behavior
-- [ ] Implement DEFENSE role with protective, responsive behavior
-- [ ] Implement ATTACK role with offensive, tactical behavior
-
-#### Role Hierarchy Implementation
-
+- [ ] Implement role type definitions and interfaces
+- [ ] Implement role force calculation matrix
+- [ ] Implement role influence modifiers
 - [ ] Implement role hierarchy system
-- [ ] Implement role-based influence relationships
-- [ ] Implement role-based authority patterns
-- [ ] Implement role-based communication channels
+- [ ] Implement role containment rules
+
+#### Individual Role Implementation
+
+- [ ] Implement CORE role with central, stabilizing behavior
+  - [ ] Define CORE role properties and attributes
+  - [ ] Implement CORE role behavior
+  - [ ] Implement CORE role forces
+  - [ ] Implement CORE role visualization
+  - [ ] Test CORE role implementation
+
+- [ ] Implement CONTROL role with directive, coordinating behavior
+  - [ ] Define CONTROL role properties and attributes
+  - [ ] Implement CONTROL role behavior
+  - [ ] Implement CONTROL role forces
+  - [ ] Implement CONTROL role visualization
+  - [ ] Test CONTROL role implementation
+
+- [ ] Implement MOVEMENT role with propulsive, navigational behavior
+  - [ ] Define MOVEMENT role properties and attributes
+  - [ ] Implement MOVEMENT role behavior
+  - [ ] Implement MOVEMENT role forces
+  - [ ] Implement MOVEMENT role visualization
+  - [ ] Test MOVEMENT role implementation
+
+- [ ] Implement DEFENSE role with protective, responsive behavior
+  - [ ] Define DEFENSE role properties and attributes
+  - [ ] Implement DEFENSE role behavior
+  - [ ] Implement DEFENSE role forces
+  - [ ] Implement DEFENSE role visualization
+  - [ ] Test DEFENSE role implementation
+
+- [ ] Implement ATTACK role with offensive, tactical behavior
+  - [ ] Define ATTACK role properties and attributes
+  - [ ] Implement ATTACK role behavior
+  - [ ] Implement ATTACK role forces
+  - [ ] Implement ATTACK role visualization
+  - [ ] Test ATTACK role implementation
+
+#### Role Integration
+
+- [ ] Implement role assignment based on Bitcoin block nonce
+- [ ] Implement role evolution based on Bitcoin confirmations
+- [ ] Integrate roles with particle system
+- [ ] Implement role-based interactions
+- [ ] Test role integration
 
 #### Role-Based Behavior Implementation
 
@@ -459,36 +550,89 @@ Before beginning Phase 5, consider the following questions:
 4. How will force fields be visualized?
 5. How will force field performance be optimized?
 
+**Answers**: See [Phase Q&A Answers](./09_phase_qa_answers.md#phase-5-force-field-system)
+
 ### Phase 5 Tasks
 
 #### Force Field Core Implementation
 
-- [ ] Implement force field base class
+- [ ] Implement force field type definitions and interfaces
 - [ ] Implement force field geometry system
 - [ ] Implement force field influence calculation
 - [ ] Implement force field visualization (debug mode)
+- [ ] Implement field interaction system
+- [ ] Implement hierarchical influence system
 
-#### Role-Specific Force Fields
+#### Individual Force Field Implementation
 
 - [ ] Implement CORE force fields with central, stabilizing influence
+  - [ ] Define CORE field properties and attributes
+  - [ ] Implement CORE field geometry
+  - [ ] Implement CORE field influence calculation
+  - [ ] Implement CORE field visualization
+  - [ ] Test CORE field implementation
+
 - [ ] Implement CONTROL force fields with directive, coordinating influence
+  - [ ] Define CONTROL field properties and attributes
+  - [ ] Implement CONTROL field geometry
+  - [ ] Implement CONTROL field influence calculation
+  - [ ] Implement CONTROL field visualization
+  - [ ] Test CONTROL field implementation
+
 - [ ] Implement MOVEMENT force fields with propulsive, navigational influence
+  - [ ] Define MOVEMENT field properties and attributes
+  - [ ] Implement MOVEMENT field geometry
+  - [ ] Implement MOVEMENT field influence calculation
+  - [ ] Implement MOVEMENT field visualization
+  - [ ] Test MOVEMENT field implementation
+
 - [ ] Implement DEFENSE force fields with protective, responsive influence
+  - [ ] Define DEFENSE field properties and attributes
+  - [ ] Implement DEFENSE field geometry
+  - [ ] Implement DEFENSE field influence calculation
+  - [ ] Implement DEFENSE field visualization
+  - [ ] Test DEFENSE field implementation
+
 - [ ] Implement ATTACK force fields with offensive, tactical influence
+  - [ ] Define ATTACK field properties and attributes
+  - [ ] Implement ATTACK field geometry
+  - [ ] Implement ATTACK field influence calculation
+  - [ ] Implement ATTACK field visualization
+  - [ ] Test ATTACK field implementation
 
 #### Force Field Interaction System
 
-- [ ] Implement force field-to-particle interactions
-- [ ] Implement force field-to-force field interactions
-- [ ] Implement environmental force fields
-- [ ] Implement force field modifiers
+- [ ] Implement field-particle interaction system
+  - [ ] Implement containment forces
+  - [ ] Implement directional influences
+  - [ ] Implement role compatibility checks
+  - [ ] Test field-particle interactions
+
+- [ ] Implement field-field interaction system
+  - [ ] Implement field overlap detection
+  - [ ] Implement reinforcement, interference, and override behaviors
+  - [ ] Implement interaction strength calculation
+  - [ ] Test field-field interactions
+
+- [ ] Implement hierarchical influence system
+  - [ ] Implement hierarchy levels
+  - [ ] Implement hierarchy compatibility matrix
+  - [ ] Implement containment rules
+  - [ ] Test hierarchical influence
 
 #### Force Field Generation System
 
 - [ ] Implement force field generation from Bitcoin data
-- [ ] Implement force field variation algorithms
-- [ ] Implement force field evolution over time
-- [ ] Implement force field adaptation mechanisms
+  - [ ] Implement deterministic RNG for field properties
+  - [ ] Implement field shape generation
+  - [ ] Implement field property assignment
+  - [ ] Test deterministic generation
+
+- [ ] Implement force field evolution
+  - [ ] Implement evolution based on Bitcoin confirmations
+  - [ ] Implement field property mutation
+  - [ ] Implement field shape evolution
+  - [ ] Test evolution mechanics
 
 #### Code Examples and Documentation
 
@@ -540,6 +684,8 @@ Before beginning Phase 6, consider the following questions:
 3. How will the UI adapt to different screen sizes?
 4. What information will be displayed in the UI?
 5. How will user interactions be handled?
+
+**Answers**: See [Phase Q&A Answers](./09_phase_qa_answers.md#phase-6-ui-elements)
 
 ### Phase 6 Tasks
 
@@ -621,6 +767,8 @@ Before beginning Phase 7, consider the following questions:
 3. How will behaviors interact with the force field system?
 4. How will behaviors be generated from Bitcoin data?
 5. How will behavior performance be optimized?
+
+**Answers**: See [Phase Q&A Answers](./09_phase_qa_answers.md#phase-7-advanced-behaviors)
 
 ### Phase 7 Tasks
 
@@ -784,6 +932,8 @@ Before beginning Phase 9, consider the following questions:
 4. How will edge cases be identified and tested?
 5. How will user feedback be incorporated?
 
+**Answers**: See [Phase Q&A Answers](./09_phase_qa_answers.md#phase-9-testing-and-refinement)
+
 ### Phase 9 Tasks
 
 #### Comprehensive Testing
@@ -864,6 +1014,8 @@ Before beginning Phase 10, consider the following questions:
 3. What dependencies need to be included or referenced?
 4. How will the application be tested in the inscription environment?
 5. What documentation is needed for the deployment?
+
+**Answers**: See [Phase Q&A Answers](./09_phase_qa_answers.md#phase-10-deployment-preparation)
 
 ### Phase 10 Tasks
 

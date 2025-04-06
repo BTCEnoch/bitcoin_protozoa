@@ -10,6 +10,9 @@ This directory contains documentation on the trait system for the Bitcoin Protoz
 - [Behavior Traits](04_behavior_traits.md) - Behavior traits for particle groups
 - [Force Field Traits](05_force_field_traits.md) - Force field traits for particle groups
 - [Trait System](06_trait_system.md) - Comprehensive trait system architecture
+- [Role Formation Traits](07_role_formation_traits.md) - Role-based formation traits across rarity tiers
+- [Role Behavior Traits](08_role_behavior_traits.md) - Role-based behavior traits across rarity tiers
+- [Mutation Traits](09_mutation_traits.md) - Mutation traits across rarity tiers
 
 ## Trait System Overview
 
@@ -22,17 +25,18 @@ The trait system defines the visual and behavioral characteristics of particle c
    - Scale variations
 
 2. **Formation Traits**: Define how particles arrange themselves
-   - Core formations
-   - Control formations
-   - Movement formations
-   - Defense formations
-   - Attack formations
+   - CORE formations (15 formations across 6 rarity tiers)
+   - CONTROL formations (15 formations across 6 rarity tiers)
+   - MOVEMENT formations (15 formations across 6 rarity tiers)
+   - DEFENSE formations (15 formations across 6 rarity tiers)
+   - ATTACK formations (15 formations across 6 rarity tiers)
 
 3. **Behavior Traits**: Define how particles move and interact
-   - Emergent behaviors
-   - Role-specific behaviors
-   - Group interactions
-   - Environmental responses
+   - CORE behaviors (15 behaviors across 6 rarity tiers)
+   - CONTROL behaviors (15 behaviors across 6 rarity tiers)
+   - MOVEMENT behaviors (15 behaviors across 6 rarity tiers)
+   - DEFENSE behaviors (15 behaviors across 6 rarity tiers)
+   - ATTACK behaviors (15 behaviors across 6 rarity tiers)
 
 4. **Force Calculation Traits**: Define the physics of particle interactions
    - Attraction/repulsion profiles
@@ -92,6 +96,18 @@ The behavior traits document outlines how particles move and interact with each 
 5. **Attack Behaviors**: Offensive, tactical behaviors for ATTACK particles
 
 Behaviors create the dynamic, lifelike qualities of the particle creatures through emergent patterns and interactions.
+
+## Mutation Traits
+
+The mutation traits document details the rare bonuses that enhance a creature beyond its base traits:
+
+1. **Single-Group Boosts**: Enhance a single group (CORE, CONTROL, MOVEMENT, DEFENSE, ATTACK)
+2. **Multi-Group Boosts**: Enhance multiple groups simultaneously (pairs or triples)
+3. **Global Boosts**: Provide smaller bonuses to all five groups
+4. **Special Effects**: Offer unique bonuses like dodge chance or regeneration
+5. **Particle Count Bonuses**: Add particles to a group (high rarity only)
+
+Mutations are assigned based on Bitcoin confirmation milestones, with higher confirmations increasing the chance of rarer mutations. The 200 mutation traits are distributed across six rarity tiers: Common (60), Uncommon (50), Rare (40), Epic (30), Legendary (15), and Mythic (5).
 
 ## Force Fields
 

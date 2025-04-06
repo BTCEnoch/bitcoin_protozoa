@@ -101,9 +101,9 @@ Each inventory item includes:
 ### Current Phase Status
 
 - **Phase 1 (Core Systems)**: ✅ Complete (100%)
-- **Phase 2 (Bitcoin Integration)**: 🔄 In Progress (50%)
+- **Phase 2 (Bitcoin Integration)**: ✅ Complete (100%)
 - **Phase 3 (Visual Traits)**: ✅ Complete (100%)
-- **Phase 4 (Particle Roles)**: ⏱️ Pending (0%)
+- **Phase 4 (Particle Roles)**: 🔄 In Progress (25%)
 - **Phase 5 (Force Fields)**: ⏱️ Pending (0%)
 - **Phase 6 (UI Implementation)**: ⏱️ Pending (0%)
 - **Phase 7 (Advanced Behaviors)**: ⏱️ Pending (0%)
@@ -210,6 +210,9 @@ Each inventory item includes:
 |------|--------|----------|--------------------------|-------|
 | Implement color palette system | ✅ Complete | P0 | [Color Palettes](../traits/01_color_palettes.md) | Color palette system implemented with 50+ palettes |
 | Create particle shape system | ✅ Complete | P0 | [Particle Shapes](../traits/02_particle_shapes.md) | Particle shape system implemented with multiple geometry types |
+| Implement role formation traits | ⏱️ Pending | P0 | [Role Formation Traits](../traits/07_role_formation_traits.md) | 75 role-based formation traits defined across 5 roles and 6 rarity tiers |
+| Implement role behavior traits | ⏱️ Pending | P0 | [Role Behavior Traits](../traits/08_role_behavior_traits.md) | 75 role-based behavior traits defined across 5 roles and 6 rarity tiers |
+| Implement mutation traits | ⏱️ Pending | P0 | [Mutation Traits](../traits/09_mutation_traits.md) | 200 mutation traits defined across 6 rarity tiers |
 | Implement shader effects | ✅ Complete | P0 | [Visual Effects](../traits/07_visual_effects.md) | Shader effects implemented for particle visual effects |
 | Create trait visualization tools | ✅ Complete | P1 | [Development UI](../testing/04_development_ui.md) | TraitVisualizer component implemented for previewing traits |
 | Implement visual regression testing | ✅ Complete | P1 | [Testing Strategy](../testing/01_testing_strategy.md) | Visual regression testing implemented for trait verification |
@@ -579,6 +582,7 @@ These gaps should be addressed to ensure comprehensive documentation coverage fo
 - [Directory Structure Map](./05_directory_structure_map.md) - Project directory structure
 - [Script-Based Implementation](./07_script_based_implementation.md) - Script-based implementation approach
 - [Phase Implementation Template](./08_phase_implementation_template.md) - Template flow for implementing each phase
+- [Phase Q&A Answers](./09_phase_qa_answers.md) - Answers to phase-specific Q&A questions
 - [Performance Considerations](../engine/04_performance_considerations.md) - Performance optimization guidelines
 - [Testing Strategy](../testing/01_testing_strategy.md) - Testing approach
 - [Error Handling](../testing/02_error_handling.md) - Error handling strategy
