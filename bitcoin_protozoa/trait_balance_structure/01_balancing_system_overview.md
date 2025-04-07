@@ -41,31 +41,31 @@ Each creature receives one trait per category, with five categories:
 ### Rarity Levels
 Traits are assigned across six rarity tiers:
 
-- **Common**: Minor boosts (e.g., +5% HP, 40% chance).
-- **Uncommon**: Moderate boosts (e.g., +10% DEFENSE, 30% chance).
-- **Rare**: Significant boosts (e.g., +20% MOVEMENT, 20% chance).
-- **Epic**: Powerful effects (e.g., chain lightning, 8% chance).
-- **Legendary**: Game-changing effects (e.g., double damage for 5 seconds, 1.5% chance).
-- **Mythic**: Extraordinary effects (e.g., time manipulation, 0.5% chance).
+- **Common**: Minor boosts (e.g., +5% HP, ~52.25% chance).
+- **Uncommon**: Moderate boosts (e.g., +10% DEFENSE, ~28.82% chance).
+- **Rare**: Significant boosts (e.g., +20% MOVEMENT, ~13.62% chance).
+- **Epic**: Powerful effects (e.g., chain lightning, ~4.33% chance).
+- **Legendary**: Game-changing effects (e.g., double damage for 5 seconds, ~0.57% chance).
+- **Mythic**: Extraordinary effects (e.g., time manipulation, ~0.41% chance).
 
 ### Assignment and Rarity Odds
 - **Independent Rolls**: Each category's trait is rolled separately.
 - **Adjusted Odds for Rarity**:
-  - Common: 40%
-  - Uncommon: 30%
-  - Rare: 20%
-  - Epic: 8%
-  - Legendary: 1.5%
-  - Mythic: 0.5%
+  - Common: ~52.25%
+  - Uncommon: ~28.82%
+  - Rare: ~13.62%
+  - Epic: ~4.33%
+  - Legendary: ~0.57%
+  - Mythic: ~0.41%
 
 ### Particle Count Ranges by Rarity
-- **Common (40%)**: 43–95 particles
-- **Uncommon (30%)**: 96–110 particles
-- **Rare (20%)**: 111–125 particles
-- **Epic (8%)**: 126–141 particles
-- **Legendary (1.5%)**: 142–151 particles
-- **Mythic (0.5%)**: 152–220 particles
-- **Perfect Creature Odds**: A creature with five Mythic traits has a 0.5% × 0.5% × 0.5% × 0.5% × 0.5% = 1 in 3.2 trillion chance.
+- **Common (~52.25%)**: 43–96 particles
+- **Uncommon (~28.82%)**: 97–141 particles
+- **Rare (~13.62%)**: 142–176 particles
+- **Epic (~4.33%)**: 177–196 particles
+- **Legendary (~0.57%)**: 197–209 particles
+- **Mythic (~0.41%)**: 210–220 particles
+- **Perfect Creature Odds**: A creature with five Mythic traits has a 0.41% × 0.41% × 0.41% × 0.41% × 0.41% = 1 in 7.6 trillion chance.
 
 ## 3. Mutation Perks
 

@@ -9,12 +9,12 @@ This document details the 15 subclasses for the ATTACK role (Striker) in Bitcoin
 1. **Particle Count Ranges**: [Particle Count Ranges by Rarity](#particle-count-ranges-by-rarity)
 2. **Subclass Distribution**: [Subclass Distribution](#subclass-distribution)
 3. **Subclasses by Tier**:
-   - [Common Tier](#common-tier-43-95-particles): Skirmisher, Brawler, Foot Soldier, Spellblade
-   - [Uncommon Tier](#uncommon-tier-96-110-particles): Warrior, Vanguard, Battlemage
-   - [Rare Tier](#rare-tier-111-125-particles): Berserker, Samurai, Pyromancer
-   - [Epic Tier](#epic-tier-126-141-particles): Gladiator, Paladin
-   - [Legendary Tier](#legendary-tier-142-151-particles): Warlord, Assassin
-   - [Mythic Tier](#mythic-tier-152-220-particles): Godslayer
+   - [Common Tier](#common-tier-43-96-particles): Skirmisher, Brawler, Foot Soldier, Spellblade
+   - [Uncommon Tier](#uncommon-tier-97-141-particles): Warrior, Vanguard, Battlemage
+   - [Rare Tier](#rare-tier-142-176-particles): Berserker, Samurai, Pyromancer
+   - [Epic Tier](#epic-tier-177-196-particles): Gladiator, Paladin
+   - [Legendary Tier](#legendary-tier-197-209-particles): Warlord, Assassin
+   - [Mythic Tier](#mythic-tier-210-220-particles): Godslayer
 4. **Modifiers**: [Subclass Modifiers](#subclass-modifiers)
 
 ### Important Concepts:
@@ -27,12 +27,12 @@ This document details the subclasses for the ATTACK role in Bitcoin Protozoa. Th
 
 ## Particle Count Ranges by Rarity
 
-- **Common (40%)**: 43–95 particles
-- **Uncommon (30%)**: 96–110 particles
-- **Rare (20%)**: 111–125 particles
-- **Epic (8%)**: 126–141 particles
-- **Legendary (1.5%)**: 142–151 particles
-- **Mythic (0.5%)**: 152–220 particles
+- **Common (~52.25%)**: 43–96 particles
+- **Uncommon (~28.82%)**: 97–141 particles
+- **Rare (~13.62%)**: 142–176 particles
+- **Epic (~4.33%)**: 177–196 particles
+- **Legendary (~0.57%)**: 197–209 particles
+- **Mythic (~0.41%)**: 210–220 particles
 
 ## Subclass Distribution
 
@@ -43,7 +43,7 @@ This document details the subclasses for the ATTACK role in Bitcoin Protozoa. Th
 - **Legendary**: 2 subclasses
 - **Mythic**: 1 subclass
 
-## Common Tier (43-95 particles)
+## Common Tier (43-96 particles)
 
 ### Skirmisher
 
@@ -85,7 +85,7 @@ A fighter who combines martial prowess with minor magical abilities.
 - **CC**: Stun - Flame Slash stuns for 1 second, 25-second cooldown
 - **Formation Trait**: Glowing Edges - Particles emit energy at the perimeter, like a charged blade
 
-## Uncommon Tier (96-110 particles)
+## Uncommon Tier (97-141 particles)
 
 ### Warrior
 
@@ -117,7 +117,7 @@ A fighter who combines martial prowess with elemental magic.
 - **CC**: Stun - Shockwave stuns for 1.5 seconds, 20-second cooldown
 - **Formation Trait**: Pulsing Core - Particles oscillate with energy, like a capacitor
 
-## Rare Tier (111-125 particles)
+## Rare Tier (142-176 particles)
 
 ### Berserker
 
@@ -149,7 +149,7 @@ A fighter who harnesses the power of fire in combat.
 - **CC**: Stun - Inferno Burst stuns for 1.5 seconds, 20-second cooldown
 - **Formation Trait**: Flaming Halo - Particles orbit with heat, like a fire ring
 
-## Epic Tier (126-141 particles)
+## Epic Tier (177-196 particles)
 
 ### Gladiator
 
@@ -171,7 +171,7 @@ A holy warrior who combines martial prowess with divine magic.
 - **CC**: Hammer of Justice - Stuns with a hammer blow for 2 seconds, 20-second cooldown
 - **Formation Trait**: Holy Cross - Particles arrange in a cross shape, emitting light
 
-## Legendary Tier (142-151 particles)
+## Legendary Tier (197-209 particles)
 
 ### Warlord
 
@@ -193,7 +193,7 @@ A master of stealth and precision who strikes from the shadows.
 - **CC**: Stun - Backstab stuns for 2.5 seconds, 20-second cooldown
 - **Formation Trait**: Phantom Shift - Particles flicker in and out, like a mirage
 
-## Mythic Tier (152-220 particles)
+## Mythic Tier (210-220 particles)
 
 ### Godslayer
 

@@ -9,12 +9,12 @@ This document details the 15 subclasses for the MOVEMENT role (Rogue) in Bitcoin
 1. **Particle Count Ranges**: [Particle Count Ranges by Rarity](#particle-count-ranges-by-rarity)
 2. **Subclass Distribution**: [Subclass Distribution](#subclass-distribution)
 3. **Subclasses by Tier**:
-   - [Common Tier](#common-tier-43-95-particles): Scout, Thief, Acrobat, Archer
-   - [Uncommon Tier](#uncommon-tier-96-110-particles): Ranger, Swashbuckler, Shadowstep
-   - [Rare Tier](#rare-tier-111-125-particles): Sharpshooter, Ninja, Duelist
-   - [Epic Tier](#epic-tier-126-141-particles): Sniper, Assassin
-   - [Legendary Tier](#legendary-tier-142-151-particles): Blademaster, Phantom
-   - [Mythic Tier](#mythic-tier-152-220-particles): Windwalker
+   - [Common Tier](#common-tier-43-96-particles): Scout, Thief, Acrobat, Archer
+   - [Uncommon Tier](#uncommon-tier-97-141-particles): Ranger, Swashbuckler, Shadowstep
+   - [Rare Tier](#rare-tier-142-176-particles): Sharpshooter, Ninja, Duelist
+   - [Epic Tier](#epic-tier-177-196-particles): Sniper, Assassin
+   - [Legendary Tier](#legendary-tier-197-209-particles): Blademaster, Phantom
+   - [Mythic Tier](#mythic-tier-210-220-particles): Windwalker
 4. **Modifiers**: [Subclass Modifiers](#subclass-modifiers)
 
 ### Important Concepts:
@@ -27,12 +27,12 @@ This document details the subclasses for the MOVEMENT role in Bitcoin Protozoa. 
 
 ## Particle Count Ranges by Rarity
 
-- **Common (40%)**: 43–95 particles
-- **Uncommon (30%)**: 96–110 particles
-- **Rare (20%)**: 111–125 particles
-- **Epic (8%)**: 126–141 particles
-- **Legendary (1.5%)**: 142–151 particles
-- **Mythic (0.5%)**: 152–220 particles
+- **Common (~52.25%)**: 43–96 particles
+- **Uncommon (~28.82%)**: 97–141 particles
+- **Rare (~13.62%)**: 142–176 particles
+- **Epic (~4.33%)**: 177–196 particles
+- **Legendary (~0.57%)**: 197–209 particles
+- **Mythic (~0.41%)**: 210–220 particles
 
 ## Subclass Distribution
 
@@ -43,7 +43,7 @@ This document details the subclasses for the MOVEMENT role in Bitcoin Protozoa. 
 - **Legendary**: 2 subclasses
 - **Mythic**: 1 subclass
 
-## Common Tier (43-95 particles)
+## Common Tier (43-96 particles)
 
 ### Scout
 
@@ -85,7 +85,7 @@ A ranged specialist who excels at dealing damage from a distance.
 - **CC**: Daze - Volley dazes for 1 second, 15-second cooldown
 - **Formation Trait**: Linear Stretch - Particles align like a bowstring
 
-## Uncommon Tier (96-110 particles)
+## Uncommon Tier (97-141 particles)
 
 ### Ranger
 
@@ -117,7 +117,7 @@ A master of stealth who can teleport short distances and create distractions.
 - **CC**: Blind - Smoke Bomb blinds for 1.5 seconds, 15-second cooldown
 - **Formation Trait**: Flickering Shadows - Particles phase like a mirage
 
-## Rare Tier (111-125 particles)
+## Rare Tier (142-176 particles)
 
 ### Sharpshooter
 
@@ -149,7 +149,7 @@ A master of one-on-one combat who excels at precision strikes and counters.
 - **CC**: Disarm - Combo disarms for 2 seconds, 15-second cooldown
 - **Formation Trait**: Elegant Spiral - Particles twist gracefully
 
-## Epic Tier (126-141 particles)
+## Epic Tier (177-196 particles)
 
 ### Sniper
 
@@ -171,7 +171,7 @@ A deadly killer who specializes in eliminating high-value targets.
 - **CC**: Silence - Garrote silences for 2 seconds, 15-second cooldown
 - **Formation Trait**: Hidden Blade - Particles form a sharp edge
 
-## Legendary Tier (142-151 particles)
+## Legendary Tier (197-209 particles)
 
 ### Blademaster
 
@@ -193,7 +193,7 @@ A supernatural entity that can phase between planes of existence.
 - **CC**: Fear - Shot fears for 2 seconds, 15-second cooldown
 - **Formation Trait**: Wraith Cloak - Particles shimmer faintly
 
-## Mythic Tier (152-220 particles)
+## Mythic Tier (210-220 particles)
 
 ### Windwalker
 

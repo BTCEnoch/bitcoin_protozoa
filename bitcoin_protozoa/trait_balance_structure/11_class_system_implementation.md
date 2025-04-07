@@ -282,7 +282,7 @@ Each particle group has a pool of 15 behaviors that can be assigned to subclasse
 
 The ATTACK role focuses on dealing damage and offensive capabilities. Subclasses are determined by particle count ranges and the ordering of the other four roles.
 
-### Common Tier (43-95 particles)
+### Common Tier (43-96 particles)
 
 #### Skirmisher
 - **Primary**: Quick Slash - Rapid melee strike, 2-second cooldown
@@ -312,7 +312,7 @@ The ATTACK role focuses on dealing damage and offensive capabilities. Subclasses
 - **CC**: Stun - Flame Slash stuns for 1 second, 25-second cooldown
 - **Formation Trait**: Glowing Edges - Particles emit energy at the perimeter, like a charged blade
 
-### Uncommon Tier (96-110 particles)
+### Uncommon Tier (97-141 particles)
 
 #### Warrior
 - **Primary**: Sword Strike - Reliable melee attack, 2-second cooldown
@@ -335,7 +335,7 @@ The ATTACK role focuses on dealing damage and offensive capabilities. Subclasses
 - **CC**: Stun - Shockwave stuns for 1.5 seconds, 20-second cooldown
 - **Formation Trait**: Pulsing Core - Particles oscillate with energy, like a capacitor
 
-### Rare Tier (111-125 particles)
+### Rare Tier (142-176 particles)
 
 #### Berserker
 - **Primary**: Frenzied Slash - Fast melee combo (2 hits), 2-second cooldown
@@ -358,7 +358,7 @@ The ATTACK role focuses on dealing damage and offensive capabilities. Subclasses
 - **CC**: Stun - Inferno Burst stuns for 1.5 seconds, 20-second cooldown
 - **Formation Trait**: Flaming Halo - Particles orbit with heat, like a fire ring
 
-### Epic Tier (126-141 particles)
+### Epic Tier (177-196 particles)
 
 #### Gladiator
 - **Primary**: Chain Strike - Two-stage melee combo, 2-second cooldown
@@ -374,7 +374,7 @@ The ATTACK role focuses on dealing damage and offensive capabilities. Subclasses
 - **CC**: Hammer of Justice - Stuns with a hammer blow for 2 seconds, 20-second cooldown
 - **Formation Trait**: Holy Cross - Particles arrange in a cross shape, emitting light
 
-### Legendary Tier (142-151 particles)
+### Legendary Tier (197-209 particles)
 
 #### Warlord
 - **Primary**: Command Strike - Three-stage melee combo, 2-second cooldown
@@ -390,7 +390,7 @@ The ATTACK role focuses on dealing damage and offensive capabilities. Subclasses
 - **CC**: Stun - Backstab stuns for 2.5 seconds, 20-second cooldown
 - **Formation Trait**: Phantom Shift - Particles flicker in and out, like a mirage
 
-### Mythic Tier (152-220 particles)
+### Mythic Tier (210-220 particles)
 
 #### Godslayer
 - **Primary**: Divine Rend - Four-stage melee combo, 2-second cooldown
@@ -403,7 +403,7 @@ The ATTACK role focuses on dealing damage and offensive capabilities. Subclasses
 
 The DEFENSE role focuses on tanking, damage mitigation, and ally protection. Subclasses are determined by particle count ranges and the ordering of the other four roles.
 
-### Common Tier (43-95 particles)
+### Common Tier (43-96 particles)
 
 #### Sentinel
 - **Primary**: Shield Bash - Melee strike, 2-second cooldown
@@ -433,7 +433,7 @@ The DEFENSE role focuses on tanking, damage mitigation, and ally protection. Sub
 - **CC**: Knockback - Slam pushes enemies back, 15-second cooldown
 - **Formation Trait**: Thick Shell - Particles form a dense outer layer, like armor plating
 
-### Uncommon Tier (96-110 particles)
+### Uncommon Tier (97-141 particles)
 
 #### Defender
 - **Primary**: Axe Chop - Strong melee strike, 2-second cooldown
@@ -456,7 +456,7 @@ The DEFENSE role focuses on tanking, damage mitigation, and ally protection. Sub
 - **CC**: Daze - Smash dazes for 1.5 seconds, 15-second cooldown
 - **Formation Trait**: Armored Lattice - Particles interlock like chainmail
 
-### Rare Tier (111-125 particles)
+### Rare Tier (142-176 particles)
 
 #### Barricade
 - **Primary**: Greatshield Slam - Defensive melee hit, 2-second cooldown
@@ -479,7 +479,7 @@ The DEFENSE role focuses on tanking, damage mitigation, and ally protection. Sub
 - **CC**: Taunt - Forces enemies to attack for 3 seconds, 15-second cooldown
 - **Formation Trait**: Sacred Circle - Particles form a glowing ring, like a holy barrier
 
-### Epic Tier (126-141 particles)
+### Epic Tier (177-196 particles)
 
 #### Fortress
 - **Primary**: Hammer Crush - Powerful melee blow, 2-second cooldown
@@ -495,7 +495,7 @@ The DEFENSE role focuses on tanking, damage mitigation, and ally protection. Sub
 - **CC**: Daze - Strike dazes for 2 seconds, 15-second cooldown
 - **Formation Trait**: Radiant Cross - Particles arrange in a cross, emitting protective light
 
-### Legendary Tier (142-151 particles)
+### Legendary Tier (197-209 particles)
 
 #### Colossus
 - **Primary**: Titan Smash - Devastating melee hit, 2-second cooldown
@@ -511,7 +511,7 @@ The DEFENSE role focuses on tanking, damage mitigation, and ally protection. Sub
 - **CC**: Stun - Blade stuns for 3 seconds, 15-second cooldown
 - **Formation Trait**: Divine Bastion - Particles form a glowing fortress shape
 
-### Mythic Tier (152-220 particles)
+### Mythic Tier (210-220 particles)
 
 #### Indomitable
 - **Primary**: Eternal Strike - Unstoppable melee attack, 2-second cooldown
@@ -524,7 +524,7 @@ The DEFENSE role focuses on tanking, damage mitigation, and ally protection. Sub
 
 The MOVEMENT role focuses on agility, evasion, and hybrid capabilities. Subclasses are determined by particle count ranges and the ordering of the other four roles.
 
-### Common Tier (43-95 particles)
+### Common Tier (43-96 particles)
 
 #### Scout
 - **Primary**: Quick Shot - Fast ranged attack, 2-second cooldown
@@ -554,7 +554,7 @@ The MOVEMENT role focuses on agility, evasion, and hybrid capabilities. Subclass
 - **CC**: Daze - Volley dazes for 1 second, 15-second cooldown
 - **Formation Trait**: Linear Stretch - Particles align like a bowstring
 
-### Uncommon Tier (96-110 particles)
+### Uncommon Tier (97-141 particles)
 
 #### Ranger
 - **Primary**: Swift Shot - Quick ranged attack, 2-second cooldown
@@ -577,7 +577,7 @@ The MOVEMENT role focuses on agility, evasion, and hybrid capabilities. Subclass
 - **CC**: Blind - Smoke Bomb blinds for 1.5 seconds, 15-second cooldown
 - **Formation Trait**: Flickering Shadows - Particles phase like a mirage
 
-### Rare Tier (111-125 particles)
+### Rare Tier (142-176 particles)
 
 #### Sharpshooter
 - **Primary**: Piercing Shot - High-damage ranged attack, 3-second cooldown
@@ -600,7 +600,7 @@ The MOVEMENT role focuses on agility, evasion, and hybrid capabilities. Subclass
 - **CC**: Disarm - Combo disarms for 2 seconds, 15-second cooldown
 - **Formation Trait**: Elegant Spiral - Particles twist gracefully
 
-### Epic Tier (126-141 particles)
+### Epic Tier (177-196 particles)
 
 #### Sniper
 - **Primary**: Long Shot - Powerful ranged attack, 3-second cooldown
@@ -616,7 +616,7 @@ The MOVEMENT role focuses on agility, evasion, and hybrid capabilities. Subclass
 - **CC**: Silence - Garrote silences for 2 seconds, 15-second cooldown
 - **Formation Trait**: Hidden Blade - Particles form a sharp edge
 
-### Legendary Tier (142-151 particles)
+### Legendary Tier (197-209 particles)
 
 #### Blademaster
 - **Primary**: Blade Dance - Three-stage melee combo, 2-second cooldown
@@ -632,7 +632,7 @@ The MOVEMENT role focuses on agility, evasion, and hybrid capabilities. Subclass
 - **CC**: Fear - Shot fears for 2 seconds, 15-second cooldown
 - **Formation Trait**: Wraith Cloak - Particles shimmer faintly
 
-### Mythic Tier (152-220 particles)
+### Mythic Tier (210-220 particles)
 
 #### Windwalker
 - **Primary**: Gale Slash - Four-stage melee combo, 2-second cooldown

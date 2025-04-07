@@ -9,12 +9,12 @@ This document details the 15 subclasses for the CORE role (Healer) in Bitcoin Pr
 1. **Particle Count Ranges**: [Particle Count Ranges by Rarity](#particle-count-ranges-by-rarity)
 2. **Subclass Distribution**: [Subclass Distribution](#subclass-distribution)
 3. **Subclasses by Tier**:
-   - [Common Tier](#common-tier-43-95-particles): Acolyte, Medic, Mender, Novice
-   - [Uncommon Tier](#uncommon-tier-96-110-particles): Cleric, Druid, Shaman
-   - [Rare Tier](#rare-tier-111-125-particles): Priest, Monk, Alchemist
-   - [Epic Tier](#epic-tier-126-141-particles): Oracle, Hierophant
-   - [Legendary Tier](#legendary-tier-142-151-particles): Archpriest, Lifebinder
-   - [Mythic Tier](#mythic-tier-152-220-particles): Ascendant
+   - [Common Tier](#common-tier-43-96-particles): Acolyte, Medic, Mender, Novice
+   - [Uncommon Tier](#uncommon-tier-97-141-particles): Cleric, Druid, Shaman
+   - [Rare Tier](#rare-tier-142-176-particles): Priest, Monk, Alchemist
+   - [Epic Tier](#epic-tier-177-196-particles): Oracle, Hierophant
+   - [Legendary Tier](#legendary-tier-197-209-particles): Archpriest, Lifebinder
+   - [Mythic Tier](#mythic-tier-210-220-particles): Ascendant
 4. **Modifiers**: [Subclass Modifiers](#subclass-modifiers)
 
 ### Important Concepts:
@@ -27,12 +27,12 @@ This document details the subclasses for the CORE role in Bitcoin Protozoa. The 
 
 ## Particle Count Ranges by Rarity
 
-- **Common (40%)**: 43–95 particles
-- **Uncommon (30%)**: 96–110 particles
-- **Rare (20%)**: 111–125 particles
-- **Epic (8%)**: 126–141 particles
-- **Legendary (1.5%)**: 142–151 particles
-- **Mythic (0.5%)**: 152–220 particles
+- **Common (~52.25%)**: 43–96 particles
+- **Uncommon (~28.82%)**: 97–141 particles
+- **Rare (~13.62%)**: 142–176 particles
+- **Epic (~4.33%)**: 177–196 particles
+- **Legendary (~0.57%)**: 197–209 particles
+- **Mythic (~0.41%)**: 210–220 particles
 
 ## Subclass Distribution
 
@@ -43,7 +43,7 @@ This document details the subclasses for the CORE role in Bitcoin Protozoa. The 
 - **Legendary**: 2 subclasses
 - **Mythic**: 1 subclass
 
-## Common Tier (43-95 particles)
+## Common Tier (43-96 particles)
 
 ### Acolyte
 
@@ -85,7 +85,7 @@ A beginner healer with basic abilities but great potential.
 - **CC**: Silence - Prevents enemy from using abilities for 1 second, 15-second cooldown
 - **Formation Trait**: Radiant Glow - Particles emit a soft, pulsing light
 
-## Uncommon Tier (96-110 particles)
+## Uncommon Tier (97-141 particles)
 
 ### Cleric
 
@@ -117,7 +117,7 @@ A spiritual healer who communes with elemental and ancestral forces.
 - **CC**: Confuse - Causes enemy to act unpredictably for 1.5 seconds, 15-second cooldown
 - **Formation Trait**: Totem Circle - Particles form a circular pattern with four distinct sections
 
-## Rare Tier (111-125 particles)
+## Rare Tier (142-176 particles)
 
 ### Priest
 
@@ -149,7 +149,7 @@ A scientific healer who uses potions and elixirs to heal and enhance.
 - **CC**: Blind - Reduces enemy accuracy for 2 seconds, 15-second cooldown
 - **Formation Trait**: Bubbling Flask - Particles form a flask shape with bubbles rising
 
-## Epic Tier (126-141 particles)
+## Epic Tier (177-196 particles)
 
 ### Oracle
 
@@ -171,7 +171,7 @@ A high priest who channels immense divine power to heal and protect.
 - **CC**: Confuse - Causes enemy to act unpredictably for 2 seconds, 15-second cooldown
 - **Formation Trait**: Temple - Particles form a temple-like structure with pillars
 
-## Legendary Tier (142-151 particles)
+## Legendary Tier (197-209 particles)
 
 ### Archpriest
 
@@ -193,7 +193,7 @@ A master of life magic who can manipulate the very essence of vitality.
 - **CC**: Blind - Reduces enemy accuracy for 3 seconds, 15-second cooldown
 - **Formation Trait**: World Tree - Particles form a massive tree-like structure with branches and roots
 
-## Mythic Tier (152-220 particles)
+## Mythic Tier (210-220 particles)
 
 ### Ascendant
 

@@ -40,12 +40,12 @@ The documentation is organized hierarchically with index files at each level:
 
 | Rarity | Percentage | Particle Count Range | Subclasses per Role |
 |--------|------------|----------------------|---------------------|
-| Common | 40% | 43–95 particles | 4 |
-| Uncommon | 30% | 96–110 particles | 3 |
-| Rare | 20% | 111–125 particles | 3 |
-| Epic | 8% | 126–141 particles | 2 |
-| Legendary | 1.5% | 142–151 particles | 2 |
-| Mythic | 0.5% | 152–220 particles | 1 |
+| Common | ~52.25% | 43–96 particles | 4 |
+| Uncommon | ~28.82% | 97–141 particles | 3 |
+| Rare | ~13.62% | 142–176 particles | 3 |
+| Epic | ~4.33% | 177–196 particles | 2 |
+| Legendary | ~0.57% | 197–209 particles | 2 |
+| Mythic | ~0.41% | 210–220 particles | 1 |
 
 ### Trait Categories
 

@@ -9,12 +9,12 @@ This document details the 15 subclasses for the CONTROL role (Caster) in Bitcoin
 1. **Particle Count Ranges**: [Particle Count Ranges by Rarity](#particle-count-ranges-by-rarity)
 2. **Subclass Distribution**: [Subclass Distribution](#subclass-distribution)
 3. **Subclasses by Tier**:
-   - [Common Tier](#common-tier-43-95-particles): Apprentice, Illusionist, Enchanter, Elementalist
-   - [Uncommon Tier](#uncommon-tier-96-110-particles): Conjurer, Diviner, Transmuter
-   - [Rare Tier](#rare-tier-111-125-particles): Evoker, Necromancer, Chronomancer
-   - [Epic Tier](#epic-tier-126-141-particles): Archmage, Spellbinder
-   - [Legendary Tier](#legendary-tier-142-151-particles): Arcanist, Runemaster
-   - [Mythic Tier](#mythic-tier-152-220-particles): Omniweaver
+   - [Common Tier](#common-tier-43-96-particles): Apprentice, Illusionist, Enchanter, Elementalist
+   - [Uncommon Tier](#uncommon-tier-97-141-particles): Conjurer, Diviner, Transmuter
+   - [Rare Tier](#rare-tier-142-176-particles): Evoker, Necromancer, Chronomancer
+   - [Epic Tier](#epic-tier-177-196-particles): Archmage, Spellbinder
+   - [Legendary Tier](#legendary-tier-197-209-particles): Arcanist, Runemaster
+   - [Mythic Tier](#mythic-tier-210-220-particles): Omniweaver
 4. **Modifiers**: [Subclass Modifiers](#subclass-modifiers)
 
 ### Important Concepts:
@@ -27,12 +27,12 @@ This document details the subclasses for the CONTROL role in Bitcoin Protozoa. T
 
 ## Particle Count Ranges by Rarity
 
-- **Common (40%)**: 43–95 particles
-- **Uncommon (30%)**: 96–110 particles
-- **Rare (20%)**: 111–125 particles
-- **Epic (8%)**: 126–141 particles
-- **Legendary (1.5%)**: 142–151 particles
-- **Mythic (0.5%)**: 152–220 particles
+- **Common (~52.25%)**: 43–96 particles
+- **Uncommon (~28.82%)**: 97–141 particles
+- **Rare (~13.62%)**: 142–176 particles
+- **Epic (~4.33%)**: 177–196 particles
+- **Legendary (~0.57%)**: 197–209 particles
+- **Mythic (~0.41%)**: 210–220 particles
 
 ## Subclass Distribution
 
@@ -43,7 +43,7 @@ This document details the subclasses for the CONTROL role in Bitcoin Protozoa. T
 - **Legendary**: 2 subclasses
 - **Mythic**: 1 subclass
 
-## Common Tier (43-95 particles)
+## Common Tier (43-96 particles)
 
 ### Apprentice
 
@@ -85,7 +85,7 @@ A mage who harnesses the power of the elements.
 - **CC**: Freeze - Immobilizes enemy for 2 seconds, 15-second cooldown
 - **Formation Trait**: Elemental Orbit - Particles orbit in four distinct elemental groups
 
-## Uncommon Tier (96-110 particles)
+## Uncommon Tier (97-141 particles)
 
 ### Conjurer
 
@@ -117,7 +117,7 @@ A mage who specializes in changing the properties of objects and creatures.
 - **CC**: Slow - Reduces enemy movement and attack speed by 30% for 2 seconds, 15-second cooldown
 - **Formation Trait**: Shifting Matter - Particles constantly change shape and density
 
-## Rare Tier (111-125 particles)
+## Rare Tier (142-176 particles)
 
 ### Evoker
 
@@ -149,7 +149,7 @@ A mage who specializes in manipulating time.
 - **CC**: Time Stop - Freezes enemy in time for 2 seconds, 20-second cooldown
 - **Formation Trait**: Clock Face - Particles form a clock-like pattern with moving hands
 
-## Epic Tier (126-141 particles)
+## Epic Tier (177-196 particles)
 
 ### Archmage
 
@@ -171,7 +171,7 @@ A mage who specializes in binding and controlling magical energies.
 - **CC**: Entangle - Roots and silences enemy for 3 seconds, 20-second cooldown
 - **Formation Trait**: Binding Chains - Particles form interconnected chains of magical energy
 
-## Legendary Tier (142-151 particles)
+## Legendary Tier (197-209 particles)
 
 ### Arcanist
 
@@ -193,7 +193,7 @@ A master of ancient runes who can inscribe powerful magical effects.
 - **CC**: Rune of Binding - Creates a rune that immobilizes enemies who step on it for 3 seconds, 20-second cooldown
 - **Formation Trait**: Runic Array - Particles form ancient runes that pulse with power
 
-## Mythic Tier (152-220 particles)
+## Mythic Tier (210-220 particles)
 
 ### Omniweaver
 

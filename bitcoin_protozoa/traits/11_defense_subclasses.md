@@ -9,12 +9,12 @@ This document details the 15 subclasses for the DEFENSE role (Tank) in Bitcoin P
 1. **Particle Count Ranges**: [Particle Count Ranges by Rarity](#particle-count-ranges-by-rarity)
 2. **Subclass Distribution**: [Subclass Distribution](#subclass-distribution)
 3. **Subclasses by Tier**:
-   - [Common Tier](#common-tier-43-95-particles): Sentinel, Guard, Warden, Bulwark
-   - [Uncommon Tier](#uncommon-tier-96-110-particles): Defender, Protector, Ironclad
-   - [Rare Tier](#rare-tier-111-125-particles): Barricade, Juggernaut, Knight Templar
-   - [Epic Tier](#epic-tier-126-141-particles): Fortress, Crusader
-   - [Legendary Tier](#legendary-tier-142-151-particles): Colossus, Paladin Lord
-   - [Mythic Tier](#mythic-tier-152-220-particles): Indomitable
+   - [Common Tier](#common-tier-43-96-particles): Sentinel, Guard, Warden, Bulwark
+   - [Uncommon Tier](#uncommon-tier-97-141-particles): Defender, Protector, Ironclad
+   - [Rare Tier](#rare-tier-142-176-particles): Barricade, Juggernaut, Knight Templar
+   - [Epic Tier](#epic-tier-177-196-particles): Fortress, Crusader
+   - [Legendary Tier](#legendary-tier-197-209-particles): Colossus, Paladin Lord
+   - [Mythic Tier](#mythic-tier-210-220-particles): Indomitable
 4. **Modifiers**: [Subclass Modifiers](#subclass-modifiers)
 
 ### Important Concepts:
@@ -27,12 +27,12 @@ This document details the subclasses for the DEFENSE role in Bitcoin Protozoa. T
 
 ## Particle Count Ranges by Rarity
 
-- **Common (40%)**: 43–95 particles
-- **Uncommon (30%)**: 96–110 particles
-- **Rare (20%)**: 111–125 particles
-- **Epic (8%)**: 126–141 particles
-- **Legendary (1.5%)**: 142–151 particles
-- **Mythic (0.5%)**: 152–220 particles
+- **Common (~52.25%)**: 43–96 particles
+- **Uncommon (~28.82%)**: 97–141 particles
+- **Rare (~13.62%)**: 142–176 particles
+- **Epic (~4.33%)**: 177–196 particles
+- **Legendary (~0.57%)**: 197–209 particles
+- **Mythic (~0.41%)**: 210–220 particles
 
 ## Subclass Distribution
 
@@ -43,7 +43,7 @@ This document details the subclasses for the DEFENSE role in Bitcoin Protozoa. T
 - **Legendary**: 2 subclasses
 - **Mythic**: 1 subclass
 
-## Common Tier (43-95 particles)
+## Common Tier (43-96 particles)
 
 ### Sentinel
 
@@ -85,7 +85,7 @@ A defensive specialist who excels at absorbing massive amounts of damage.
 - **CC**: Knockback - Slam pushes enemies back, 15-second cooldown
 - **Formation Trait**: Thick Shell - Particles form a dense outer layer, like armor plating
 
-## Uncommon Tier (96-110 particles)
+## Uncommon Tier (97-141 particles)
 
 ### Defender
 
@@ -117,7 +117,7 @@ A heavily armored fighter who can withstand tremendous punishment.
 - **CC**: Daze - Smash dazes for 1.5 seconds, 15-second cooldown
 - **Formation Trait**: Armored Lattice - Particles interlock like chainmail
 
-## Rare Tier (111-125 particles)
+## Rare Tier (142-176 particles)
 
 ### Barricade
 
@@ -149,7 +149,7 @@ A holy warrior who combines divine protection with martial prowess.
 - **CC**: Taunt - Forces enemies to attack for 3 seconds, 15-second cooldown
 - **Formation Trait**: Sacred Circle - Particles form a glowing ring, like a holy barrier
 
-## Epic Tier (126-141 particles)
+## Epic Tier (177-196 particles)
 
 ### Fortress
 
@@ -171,7 +171,7 @@ A holy champion who combines divine protection with offensive capabilities.
 - **CC**: Daze - Strike dazes for 2 seconds, 15-second cooldown
 - **Formation Trait**: Radiant Cross - Particles arrange in a cross, emitting protective light
 
-## Legendary Tier (142-151 particles)
+## Legendary Tier (197-209 particles)
 
 ### Colossus
 
@@ -193,7 +193,7 @@ A paragon of divine protection who channels holy power to defend allies.
 - **CC**: Stun - Blade stuns for 3 seconds, 15-second cooldown
 - **Formation Trait**: Divine Bastion - Particles form a glowing fortress shape
 
-## Mythic Tier (152-220 particles)
+## Mythic Tier (210-220 particles)
 
 ### Indomitable
 

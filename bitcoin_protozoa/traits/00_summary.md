@@ -9,7 +9,7 @@ This document serves as the entry point for understanding the trait system in Bi
 1. **Particle Roles**: CORE, CONTROL, MOVEMENT, DEFENSE, ATTACK
 2. **Trait Categories**: Visual, Formation, Behavior, Force Calculation, Subclasses
 3. **Rarity Tiers**: Common, Uncommon, Rare, Epic, Legendary, Mythic
-4. **Particle Count Ranges**: 43-95 (Common), 96-110 (Uncommon), 111-125 (Rare), 126-141 (Epic), 142-151 (Legendary), 152-220 (Mythic)
+4. **Particle Count Ranges**: 43-96 (Common), 97-141 (Uncommon), 142-176 (Rare), 177-196 (Epic), 197-209 (Legendary), 210-220 (Mythic)
 
 ### Important Subclass Documents:
 - [CORE Subclasses](13_core_subclasses.md): Healing and support subclasses
@@ -173,12 +173,12 @@ Traits are implemented using a deterministic approach based on Bitcoin block dat
 
 Subclasses are specialized roles determined by particle distribution across the five main roles. Each main role has 15 subclasses distributed across 6 rarity tiers based on particle count ranges:
 
-- **Common (40%)**: 43–95 particles - 4 subclasses per role
-- **Uncommon (30%)**: 96–110 particles - 3 subclasses per role
-- **Rare (20%)**: 111–125 particles - 3 subclasses per role
-- **Epic (8%)**: 126–141 particles - 2 subclasses per role
-- **Legendary (1.5%)**: 142–151 particles - 2 subclasses per role
-- **Mythic (0.5%)**: 152–220 particles - 1 subclass per role
+- **Common (~52.25%)**: 43–96 particles - 4 subclasses per role
+- **Uncommon (~28.82%)**: 97–141 particles - 3 subclasses per role
+- **Rare (~13.62%)**: 142–176 particles - 3 subclasses per role
+- **Epic (~4.33%)**: 177–196 particles - 2 subclasses per role
+- **Legendary (~0.57%)**: 197–209 particles - 2 subclasses per role
+- **Mythic (~0.41%)**: 210–220 particles - 1 subclass per role
 
 Each subclass has unique abilities and characteristics:
 
