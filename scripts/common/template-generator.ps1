@@ -222,7 +222,7 @@ Set-Content -Path `$docFilePath -Value `$docContent -Force
 Write-Host "Created documentation `$docName at `$docFilePath" -ForegroundColor Green
 "@
 
-# Save the templates
+# Save the templates  
 Set-Content -Path "$templatesDir/component-generator-template.ps1" -Value $componentGeneratorTemplate -Force
 Set-Content -Path "$templatesDir/test-generator-template.ps1" -Value $testGeneratorTemplate -Force
 Set-Content -Path "$templatesDir/documentation-generator-template.ps1" -Value $documentationGeneratorTemplate -Force

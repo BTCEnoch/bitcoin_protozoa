@@ -82,18 +82,18 @@ function distributeAdditionalParticles(): number[] {
   // Initialize with minimum particles per role
   const minParticlesPerRole = 3;
   const additionalParticles: number[] = Array(5).fill(minParticlesPerRole);
-  
+
   // Calculate remaining particles to distribute
   let remainingParticles = 300 - (minParticlesPerRole * 5);
-  
+
   // Maximum additional particles per role
   const maxAdditionalPerRole = 180;
-  
+
   // Distribute remaining particles randomly
   while (remainingParticles > 0) {
     // Pick a random role (0-4)
     const roleIndex = Math.floor(Math.random() * 5);
-    
+
     // Check if this role has reached the maximum
     if (additionalParticles[roleIndex] < maxAdditionalPerRole) {
       // Add one particle to this role
@@ -102,7 +102,7 @@ function distributeAdditionalParticles(): number[] {
     }
     // If the role is at max, the loop will try again with a different random role
   }
-  
+
   return additionalParticles;
 }
 
@@ -114,22 +114,22 @@ function distributeAdditionalParticles(): number[] {
 function distributeParticlesDeterministic(seed: number): number[] {
   // Create a seeded RNG
   const rng = createDeterministicRNG(seed);
-  
+
   // Initialize with minimum particles per role
   const minParticlesPerRole = 3;
   const additionalParticles: number[] = Array(5).fill(minParticlesPerRole);
-  
+
   // Calculate remaining particles to distribute
   let remainingParticles = 300 - (minParticlesPerRole * 5);
-  
+
   // Maximum additional particles per role
   const maxAdditionalPerRole = 180;
-  
+
   // Distribute remaining particles using the seeded RNG
   while (remainingParticles > 0) {
     // Pick a random role (0-4) using the seeded RNG
     const roleIndex = Math.floor(rng() * 5);
-    
+
     // Check if this role has reached the maximum
     if (additionalParticles[roleIndex] < maxAdditionalPerRole) {
       // Add one particle to this role
@@ -138,7 +138,7 @@ function distributeParticlesDeterministic(seed: number): number[] {
     }
     // If the role is at max, the loop will try again with a different random role
   }
-  
+
   return additionalParticles;
 }
 
@@ -149,7 +149,7 @@ function distributeParticlesDeterministic(seed: number): number[] {
  */
 function createDeterministicRNG(seed: number): () => number {
   let state = seed;
-  
+
   // Simple mulberry32 implementation
   return function() {
     state += 0x6D2B79F5;
@@ -177,6 +177,19 @@ The distribution method can be adjusted based on balance preferences:
    - Implement a weighted random selection to make certain roles more likely to receive particles.
    - This could be used to create "class tendencies" in the distribution.
 
+## Particle Count Ranges by Rarity
+
+The particle count for each role determines its rarity tier, which affects the subclass assignment and power level. The following ranges have been established to align with the rarity percentages:
+
+- **Common (40%)**: 43–95 particles
+- **Uncommon (30%)**: 96–110 particles
+- **Rare (20%)**: 111–125 particles
+- **Epic (8%)**: 126–141 particles
+- **Legendary (1.5%)**: 142–151 particles
+- **Mythic (0.5%)**: 152–220 particles
+
+These ranges ensure that the probability of a role having a particle count within each tier approximates the specified rarity percentages, with higher particle counts being rarer and corresponding to more powerful subclasses.
+
 ## Conclusion
 
 By replacing the percentage-based approach with direct particle distribution, we solve the fractional particle problem while maintaining the spirit of the original system. This method ensures:
@@ -185,5 +198,6 @@ By replacing the percentage-based approach with direct particle distribution, we
 2. The total is exactly 500 particles (200 base + 300 additional)
 3. The distribution remains random and varied
 4. Boundaries prevent extreme imbalances
+5. Particle counts align with rarity tiers for balanced gameplay
 
 This approach should be implemented in the particle distribution system to ensure accurate and balanced creature generation.

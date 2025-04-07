@@ -448,7 +448,19 @@ When implementing the trait selection system, consider the following guidelines:
 The class system should integrate with the trait system as follows:
 
 - **Main Class**: Determined by the highest particle group (CORE → Healer, CONTROL → Caster, etc.).
-- **Subclass**: Determined by the full ranking of all five groups (24 subclasses per main class).
+- **Subclass**: Determined by the full ranking of all five groups (15 subclasses per main class).
+- **Subclass Distribution by Rarity**:
+  - Common: 4 subclasses per main class
+  - Uncommon: 3 subclasses per main class
+  - Rare: 3 subclasses per main class
+  - Epic: 2 subclasses per main class
+  - Legendary: 2 subclasses per main class
+  - Mythic: 1 subclass per main class
+- **CORE Crowd Control Effects**:
+  - Silence: Prevents enemies from using abilities
+  - Confuse: Causes enemies to act unpredictably or attack allies
+  - Blind: Reduces enemy accuracy or vision
+- **Behavior Pool**: 15 behaviors per group, role-specific and tied to the main class category.
 - **Trait Effects**: Traits should modify class abilities based on their category:
   - Stat Buffs: Enhance base stats of the class.
   - Special Formations: Modify positioning and spatial effects.
@@ -462,6 +474,13 @@ The class system should integrate with the trait system as follows:
 - **Category Synergy**: Consider how traits from different categories interact.
 - **Role Compatibility**: Ensure traits are compatible with their roles.
 - **Class Synergy**: Consider how traits interact with class abilities.
+- **Particle Count Ranges**: Ensure particle counts fall within the rarity tier ranges:
+  - Common (40%): 43–95 particles
+  - Uncommon (30%): 96–110 particles
+  - Rare (20%): 111–125 particles
+  - Epic (8%): 126–141 particles
+  - Legendary (1.5%): 142–151 particles
+  - Mythic (0.5%): 152–220 particles
 
 ### 4. Implementation Approach
 

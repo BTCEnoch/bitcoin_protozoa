@@ -13,7 +13,7 @@ This document summarizes the changes made to the trait balance structure documen
 ### 2. Confirmed and Standardized Rarity Tiers
 
 - Standardized on a 6-tier system: Common, Uncommon, Rare, Epic, Legendary, Mythic
-- Updated rarity probabilities: Common (49.5%), Uncommon (30%), Rare (15%), Epic (4%), Legendary (1%), Mythic (0.5%)
+- Updated rarity probabilities: Common (40%), Uncommon (30%), Rare (20%), Epic (8%), Legendary (1.5%), Mythic (0.5%)
 - Added Mythic tier to point values (50 points)
 - Updated perfect creature odds to include Mythic tier
 
@@ -33,6 +33,13 @@ This document summarizes the changes made to the trait balance structure documen
 - Updated minimum particles per role from 40.3 to 43
 - Updated distribution method description to reflect the new approach
 - Updated rarity of extremes description
+- Updated particle count ranges by rarity tier:
+  - Common (40%): 43–95 particles (was 70–141)
+  - Uncommon (30%): 96–110 particles (was 50–69 and 142–155)
+  - Rare (20%): 111–125 particles (was 40–49 and 156–171)
+  - Epic (8%): 126–141 particles (was 172–185)
+  - Legendary (1.5%): 142–151 particles (was 186–188)
+  - Mythic (0.5%): 152–220 particles (was 189–220)
 
 ### 5. Fully Integrated Class System Details
 
@@ -67,6 +74,7 @@ This document summarizes the changes made to the trait balance structure documen
    - Updated rarity tiers and probabilities
    - Updated particle distribution method
    - Updated class system details
+   - Updated particle count ranges by rarity tier
 
 2. **03_role_distribution_analysis.md**
    - Standardized terminology
@@ -79,14 +87,27 @@ This document summarizes the changes made to the trait balance structure documen
    - Updated particle distribution and class system sections
    - Updated mutation perks to mutation traits
 
-4. **11_trait_category_mapping_detailed.md**
+4. **08_particle_distribution_method.md**
+   - Added section on particle count ranges by rarity tier
+   - Updated conclusion to reference rarity tiers
+
+5. **09_trait_redesign_checklist.md**
+   - Updated particle count ranges by rarity tier
+   - Updated rarity probabilities
+
+6. **10_trait_category_mapping_detailed.md**
    - Rebalanced trait category distribution
    - Added trait mapping flowchart
    - Added note about rebalanced distribution
+   - Updated particle count ranges by rarity tier
 
-5. **12_class_system_implementation.md**
+7. **12_class_system_implementation.md**
    - Added class determination diagram
    - Added subclass modifier table
+
+8. **bitcoin_protozoa/traits/09_mutation_traits.md**
+   - Updated particle count ranges by rarity tier
+   - Updated mutation assignment section
 
 ## Next Steps
 

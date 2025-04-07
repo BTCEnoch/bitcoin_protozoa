@@ -91,6 +91,26 @@ For each phase, the following resources from the bitcoin_protozoa directory are 
 
 In addition to the core resources, each phase requires specific resources:
 
+### Phase 4: Particle Roles and Hierarchy
+
+For implementing particle roles and hierarchy, the following resources are essential:
+
+- **[bitcoin_protozoa/traits/03_particle_roles.md](../traits/03_particle_roles.md)**: Detailed documentation of the five particle roles (CORE, CONTROL, MOVEMENT, DEFENSE, ATTACK)
+- **[bitcoin_protozoa/traits/04_role_hierarchy.md](../traits/04_role_hierarchy.md)**: Documentation of the role hierarchy and force calculation matrix
+- **[bitcoin_protozoa/traits/05_role_behaviors.md](../traits/05_role_behaviors.md)**: Documentation of role-specific behaviors
+- **[scripts/templates/role-implementation-template.ps1](../../scripts/templates/role-implementation-template.ps1)**: Template for implementing particle roles
+- **[scripts/templates/role-force-matrix-template.ps1](../../scripts/templates/role-force-matrix-template.ps1)**: Template for implementing the role force matrix
+
+### Phase 5: Force Fields
+
+For implementing force fields, the following resources are essential:
+
+- **[bitcoin_protozoa/physics/01_force_fields.md](../physics/01_force_fields.md)**: Detailed documentation of the five force field types
+- **[bitcoin_protozoa/physics/02_force_calculations.md](../physics/02_force_calculations.md)**: Documentation of force calculations
+- **[bitcoin_protozoa/physics/03_field_interactions.md](../physics/03_field_interactions.md)**: Documentation of field interactions
+- **[scripts/templates/force-field-implementation-template.ps1](../../scripts/templates/force-field-implementation-template.ps1)**: Template for implementing force fields
+- **[scripts/templates/field-interaction-template.ps1](../../scripts/templates/field-interaction-template.ps1)**: Template for implementing field interactions
+
 ### Phase 1: Core Systems
 
 - **[bitcoin_protozoa/particles/01_particle_system.md](../particles/01_particle_system.md)**: Details particle system design
@@ -178,6 +198,98 @@ The implementation process follows these steps:
    - Ensure integration with existing systems
    - Verify adherence to architecture and design principles
 
+### Phase 4: Particle Roles Implementation
+
+For implementing particle roles, follow these specific steps:
+
+1. **Implement Role Types**
+   ```powershell
+   # Generate role type definitions
+   .\scripts\phase_4\role-definition-generator.ps1
+   ```
+
+2. **Implement Role Force Matrix**
+   ```powershell
+   # Generate role force matrix
+   .\scripts\phase_4\role-force-matrix-generator.ps1
+   ```
+
+3. **Implement Individual Roles**
+   ```powershell
+   # Generate CORE role implementation
+   .\scripts\phase_4\implement-core-role.ps1
+
+   # Generate CONTROL role implementation
+   .\scripts\phase_4\implement-control-role.ps1
+
+   # Generate MOVEMENT role implementation
+   .\scripts\phase_4\implement-movement-role.ps1
+
+   # Generate DEFENSE role implementation
+   .\scripts\phase_4\implement-defense-role.ps1
+
+   # Generate ATTACK role implementation
+   .\scripts\phase_4\implement-attack-role.ps1
+   ```
+
+4. **Implement Role Assignment**
+   ```powershell
+   # Generate role assignment implementation
+   .\scripts\phase_4\implement-role-assignment.ps1
+   ```
+
+5. **Implement Role Hierarchy**
+   ```powershell
+   # Generate role hierarchy implementation
+   .\scripts\phase_4\role-hierarchy-generator.ps1
+   ```
+
+### Phase 5: Force Fields Implementation
+
+For implementing force fields, follow these specific steps:
+
+1. **Implement Force Field Types**
+   ```powershell
+   # Generate force field type definitions
+   .\scripts\phase_5\force-field-definition-generator.ps1
+   ```
+
+2. **Implement Field Interactions**
+   ```powershell
+   # Generate field interaction implementation
+   .\scripts\phase_5\force-field-interaction-generator.ps1
+   ```
+
+3. **Implement Individual Force Fields**
+   ```powershell
+   # Generate CORE force field implementation
+   .\scripts\phase_5\implement-core-force-field.ps1
+
+   # Generate CONTROL force field implementation
+   .\scripts\phase_5\implement-control-force-field.ps1
+
+   # Generate MOVEMENT force field implementation
+   .\scripts\phase_5\implement-movement-force-field.ps1
+
+   # Generate DEFENSE force field implementation
+   .\scripts\phase_5\implement-defense-force-field.ps1
+
+   # Generate ATTACK force field implementation
+   .\scripts\phase_5\implement-attack-force-field.ps1
+   ```
+
+4. **Implement Force Field Generation**
+   ```powershell
+   # Generate force field generation implementation
+   .\scripts\phase_5\implement-force-field-generation.ps1
+   ```
+
+5. **Implement Hierarchical Influence**
+   ```powershell
+   # Generate hierarchical influence implementation
+   .\scripts\phase_5\implement-hierarchical-influence.ps1
+   ```
+
 ## Testing Process
 
 The testing process follows these steps:
@@ -249,5 +361,63 @@ The verification process follows these steps:
    # Mark the phase as complete
    .\scripts\update-phase-status.ps1 -phase "phase_X" -status "Complete"
    ```
+
+### Phase 4: Particle Roles Verification
+
+For verifying particle roles implementation, check the following:
+
+1. **Role Type Verification**
+   - Verify that all five roles (CORE, CONTROL, MOVEMENT, DEFENSE, ATTACK) are properly defined
+   - Check that role properties are correctly implemented
+   - Ensure role type guards work correctly
+
+2. **Role Force Matrix Verification**
+   - Verify that the force matrix contains all role combinations
+   - Check that force factors match the specified values
+   - Ensure role influence modifiers are correctly applied
+
+3. **Role Behavior Verification**
+   - Verify that each role exhibits its expected behavior
+   - Check that role behaviors respond correctly to Bitcoin data
+   - Ensure behaviors are deterministic based on the block nonce
+
+4. **Role Assignment Verification**
+   - Verify that roles are assigned according to the specified algorithm
+   - Check that the base allocation of 40 particles per role is correct
+   - Ensure the dynamic allocation of the remaining 300 particles is deterministic
+
+5. **Role Hierarchy Verification**
+   - Verify that the hierarchy is correctly implemented
+   - Check that influence propagates through the hierarchy as expected
+   - Ensure containment rules are properly enforced
+
+### Phase 5: Force Fields Verification
+
+For verifying force fields implementation, check the following:
+
+1. **Force Field Type Verification**
+   - Verify that all five force field types are properly defined
+   - Check that field properties are correctly implemented
+   - Ensure field type guards work correctly
+
+2. **Field Interaction Verification**
+   - Verify that fields interact as expected
+   - Check that reinforcement, interference, and override behaviors work correctly
+   - Ensure hierarchical influence is properly applied
+
+3. **Field Influence Verification**
+   - Verify that fields exert the correct forces on particles
+   - Check that containment forces work as expected
+   - Ensure directional influences are correctly applied
+
+4. **Field Generation Verification**
+   - Verify that fields are generated deterministically from Bitcoin data
+   - Check that field properties are correctly derived from the block nonce
+   - Ensure field shapes and behaviors match their role
+
+5. **Hierarchical Influence Verification**
+   - Verify that the hierarchy is correctly implemented in field interactions
+   - Check that higher-level fields can override lower-level fields
+   - Ensure containment rules are properly enforced
 
 By following this template flow for each phase, we ensure a systematic, efficient approach to implementing the Bitcoin Protozoa project, adhering to the architecture and design principles outlined in the project documentation.

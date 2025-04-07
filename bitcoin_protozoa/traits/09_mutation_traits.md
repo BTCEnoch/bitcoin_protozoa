@@ -39,14 +39,24 @@ Mutations are divided into five categories based on their effect:
 ## Rarity Tiers
 
 Mutations are distributed across six rarity tiers:
-- **Common**: 60 mutations (30%)
-- **Uncommon**: 50 mutations (25%)
+- **Common**: 80 mutations (40%)
+- **Uncommon**: 60 mutations (30%)
 - **Rare**: 40 mutations (20%)
-- **Epic**: 30 mutations (15%)
-- **Legendary**: 15 mutations (7.5%)
-- **Mythic**: 5 mutations (2.5%)
+- **Epic**: 16 mutations (8%)
+- **Legendary**: 3 mutations (1.5%)
+- **Mythic**: 1 mutation (0.5%)
 
 The rarity of a mutation affects its power level, with higher rarities providing stronger bonuses.
+
+### Particle Count Ranges by Rarity
+
+Mutations can affect particle counts, with different ranges based on rarity:
+- **Common (40%)**: 43–95 particles
+- **Uncommon (30%)**: 96–110 particles
+- **Rare (20%)**: 111–125 particles
+- **Epic (8%)**: 126–141 particles
+- **Legendary (1.5%)**: 142–151 particles
+- **Mythic (0.5%)**: 152–220 particles
 
 ## Common Mutations
 
@@ -384,10 +394,10 @@ Mutations are assigned based on Bitcoin confirmation milestones:
 
 | Confirmations | Mutation Chance | Rarity Distribution |
 |---------------|----------------|---------------------|
-| 0-9,999       | 50% for 1 mutation | Common: 60%, Uncommon: 25%, Rare: 10%, Epic: 4%, Legendary: 1%, Mythic: 0% |
-| 10,000-99,999 | 50% for 1 mutation<br>10% for 2 mutations | Common: 50%, Uncommon: 30%, Rare: 15%, Epic: 4%, Legendary: 1%, Mythic: 0% |
-| 100,000-999,999 | 60% for 1 mutation<br>20% for 2 mutations<br>1% for 3 mutations | Common: 40%, Uncommon: 30%, Rare: 20%, Epic: 7%, Legendary: 2%, Mythic: 1% |
-| 1,000,000+    | 70% for 1 mutation<br>30% for 2 mutations<br>5% for 3 mutations | Common: 30%, Uncommon: 30%, Rare: 25%, Epic: 10%, Legendary: 4%, Mythic: 1% |
+| 0-9,999       | 50% for 1 mutation | Common: 70%, Uncommon: 25%, Rare: 5%, Epic: 0%, Legendary: 0%, Mythic: 0% |
+| 10,000-99,999 | 50% for 1 mutation<br>10% for 2 mutations | Common: 60%, Uncommon: 30%, Rare: 10%, Epic: 0%, Legendary: 0%, Mythic: 0% |
+| 100,000-999,999 | 60% for 1 mutation<br>20% for 2 mutations<br>1% for 3 mutations | Common: 50%, Uncommon: 30%, Rare: 15%, Epic: 5%, Legendary: 0%, Mythic: 0% |
+| 1,000,000+    | 70% for 1 mutation<br>30% for 2 mutations<br>5% for 3 mutations | Common: 40%, Uncommon: 30%, Rare: 20%, Epic: 8%, Legendary: 1.5%, Mythic: 0.5% |
 
 ### Mutation Selection
 
@@ -426,6 +436,13 @@ Particle count bonuses from mutations are subject to the following rules:
 1. Total additional particles from mutations cannot exceed +50 particles
 2. No single group can exceed 220 total particles (base + additional + mutations)
 3. Particle additions follow the same diminishing returns as regular particles (0.5x effectiveness above 150 particles)
+4. Particle counts must fall within the rarity tier ranges:
+   - Common (40%): 43–95 particles
+   - Uncommon (30%): 96–110 particles
+   - Rare (20%): 111–125 particles
+   - Epic (8%): 126–141 particles
+   - Legendary (1.5%): 142–151 particles
+   - Mythic (0.5%): 152–220 particles
 
 ### Visualization
 

@@ -71,9 +71,10 @@ This checklist will guide the redesign process, focusing on standardizing termin
    - Consistent capitalization and formatting
 
 2. **Align Trait Structures**
-   - Unified rarity tier system
+   - Unified rarity tier system with 6 tiers: Common (40%), Uncommon (30%), Rare (20%), Epic (8%), Legendary (1.5%), Mythic (0.5%)
    - Clear mapping between role-based traits and trait categories
    - Balanced distribution of traits across categories
+   - 15 behaviors per group (75 total) distributed across rarity tiers
 
 3. **Define Clear Scaling Functions**
    - Precise formulas for how particle counts affect stats
@@ -102,7 +103,7 @@ This checklist will guide the redesign process, focusing on standardizing termin
 ### 2. Align Trait Structures
 
 - [ ] Decide on rarity tier approach (extend to 6 tiers with Mythic)
-- [ ] Update rarity probabilities: Common (49.5%), Uncommon (30%), Rare (15%), Epic (4%), Legendary (1%), Mythic (0.5%)
+- [ ] Update rarity probabilities: Common (40%), Uncommon (30%), Rare (20%), Epic (8%), Legendary (1.5%), Mythic (0.5%)
 - [ ] Create mapping between role-based traits and trait categories
 - [ ] Balance trait distribution across categories
 - [ ] Update trait documentation to reflect new structure
@@ -118,9 +119,14 @@ This checklist will guide the redesign process, focusing on standardizing termin
 ### 4. Implement Particle Distribution
 
 - [ ] Implement direct particle allocation instead of percentages
-- [ ] Ensure minimum 3 additional particles per role
-- [ ] Cap at maximum 180 additional particles per role
-- [ ] Implement random distribution of remaining particles
+- [ ] Define particle count ranges by rarity tier:
+  - Common (40%): 43–95 particles
+  - Uncommon (30%): 96–110 particles
+  - Rare (20%): 111–125 particles
+  - Epic (8%): 126–141 particles
+  - Legendary (1.5%): 142–151 particles
+  - Mythic (0.5%): 152–220 particles
+- [ ] Implement random distribution of particles based on rarity tier
 - [ ] Test distribution with various seeds
 
 ### 5. Refine Trait Assignment
@@ -150,14 +156,31 @@ This checklist will guide the redesign process, focusing on standardizing termin
 - [ ] Implement subclass determination based on full ranking of all five groups
   - Main class determined by highest group
   - Subclass determined by order of remaining four groups
-  - 24 subclasses per main class (4! permutations)
-  - 120 total unique subclasses (5 × 24)
+  - 15 subclasses per main class distributed across rarity tiers
+  - 75 total unique subclasses (5 × 15)
+- [ ] Implement subclass distribution by rarity tier
+  - Common: 4 subclasses per main class
+  - Uncommon: 3 subclasses per main class
+  - Rare: 3 subclasses per main class
+  - Epic: 2 subclasses per main class
+  - Legendary: 2 subclasses per main class
+  - Mythic: 1 subclass per main class
 - [ ] Create class-specific base skills for each main class
+- [ ] Implement CORE crowd control effects
+  - Silence: Prevents enemies from using abilities
+  - Confuse: Causes enemies to act unpredictably or attack allies
+  - Blind: Reduces enemy accuracy or vision
+- [ ] Implement dispel-type skills for CORE subclasses
 - [ ] Implement subclass modifiers that affect skills based on group ranking:
   - Second-highest group: Major skill modification
   - Third-highest group: Secondary effect
   - Fourth-highest group: Minor bonus
   - Fifth-highest group: Subtle perk
+- [ ] Implement behavior pool for each particle group
+  - 15 behaviors per group (75 total)
+  - Role-specific behaviors tailored to each group's function
+  - Main class category-relevant behaviors
+  - Random assignment to subclasses within each group
 - [ ] Ensure each subclass has unique gameplay characteristics
 - [ ] Integrate class system with trait system
 - [ ] Test class system with various particle distributions

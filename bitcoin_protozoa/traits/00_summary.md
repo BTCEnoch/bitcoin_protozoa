@@ -1,5 +1,24 @@
 # Traits Summary
 
+<!-- AI-INDEX-START -->
+## AI Navigation Guide
+
+This document serves as the entry point for understanding the trait system in Bitcoin Protozoa.
+
+### Key Concepts:
+1. **Particle Roles**: CORE, CONTROL, MOVEMENT, DEFENSE, ATTACK
+2. **Trait Categories**: Visual, Formation, Behavior, Force Calculation, Subclasses
+3. **Rarity Tiers**: Common, Uncommon, Rare, Epic, Legendary, Mythic
+4. **Particle Count Ranges**: 43-95 (Common), 96-110 (Uncommon), 111-125 (Rare), 126-141 (Epic), 142-151 (Legendary), 152-220 (Mythic)
+
+### Important Subclass Documents:
+- [CORE Subclasses](13_core_subclasses.md): Healing and support subclasses
+- [CONTROL Subclasses](14_control_subclasses.md): Utility and crowd control subclasses
+- [ATTACK Subclasses](10_attack_subclasses.md): Damage-focused subclasses
+- [DEFENSE Subclasses](11_defense_subclasses.md): Tank and protection subclasses
+- [MOVEMENT Subclasses](12_movement_subclasses.md): Mobility and evasion subclasses
+<!-- AI-INDEX-END -->
+
 This directory contains documentation on the trait system for the Bitcoin Protozoa project, focusing on the various traits that define the appearance and behavior of particle creatures.
 
 ## Key Documents
@@ -13,6 +32,9 @@ This directory contains documentation on the trait system for the Bitcoin Protoz
 - [Role Formation Traits](07_role_formation_traits.md) - Role-based formation traits across rarity tiers
 - [Role Behavior Traits](08_role_behavior_traits.md) - Role-based behavior traits across rarity tiers
 - [Mutation Traits](09_mutation_traits.md) - Mutation traits across rarity tiers
+- [ATTACK Subclasses](10_attack_subclasses.md) - ATTACK role subclasses across rarity tiers
+- [DEFENSE Subclasses](11_defense_subclasses.md) - DEFENSE role subclasses across rarity tiers
+- [MOVEMENT Subclasses](12_movement_subclasses.md) - MOVEMENT role subclasses across rarity tiers
 
 ## Trait System Overview
 
@@ -43,6 +65,13 @@ The trait system defines the visual and behavioral characteristics of particle c
    - Force field properties
    - Interaction matrices
    - Spatial relationships
+
+5. **Subclasses**: Define specialized roles based on particle distribution
+   - CORE subclasses (15 subclasses across 6 rarity tiers)
+   - CONTROL subclasses (15 subclasses across 6 rarity tiers)
+   - ATTACK subclasses (15 subclasses across 6 rarity tiers)
+   - DEFENSE subclasses (15 subclasses across 6 rarity tiers)
+   - MOVEMENT subclasses (15 subclasses across 6 rarity tiers)
 
 ## Color Palettes
 
@@ -138,3 +167,31 @@ Traits are implemented using a deterministic approach based on Bitcoin block dat
 - [Color Theory](../ui/03_color_themes.md) - For details on color theory principles
 - [RNG System](../bitcoin/03_rng_system.md) - For details on the deterministic random number generation
 - [Evolution Mechanics](../bitcoin/02_evolution_mechanics.md) - For details on the confirmation-based mutation system
+- [Class System Implementation](../trait_balance_structure/11_class_system_implementation.md) - For details on the class system implementation
+
+## Subclasses
+
+Subclasses are specialized roles determined by particle distribution across the five main roles. Each main role has 15 subclasses distributed across 6 rarity tiers based on particle count ranges:
+
+- **Common (40%)**: 43–95 particles - 4 subclasses per role
+- **Uncommon (30%)**: 96–110 particles - 3 subclasses per role
+- **Rare (20%)**: 111–125 particles - 3 subclasses per role
+- **Epic (8%)**: 126–141 particles - 2 subclasses per role
+- **Legendary (1.5%)**: 142–151 particles - 2 subclasses per role
+- **Mythic (0.5%)**: 152–220 particles - 1 subclass per role
+
+Each subclass has unique abilities and characteristics:
+
+1. **Primary Ability**: Basic attack or action with a short cooldown
+2. **Secondary Ability**: More powerful ability with a longer cooldown
+3. **Unique Ability**: Special ability that defines the subclass
+4. **Crowd Control (CC)**: Ability to control or disrupt enemies
+5. **Formation Trait**: Unique particle arrangement that affects appearance and function
+
+Subclasses are further modified by the ordering of the other four roles, creating unique variations within each subclass. For detailed information on specific role subclasses, see:
+
+- [CORE Subclasses](13_core_subclasses.md) - Healing and support subclasses
+- [CONTROL Subclasses](14_control_subclasses.md) - Utility and crowd control subclasses
+- [ATTACK Subclasses](10_attack_subclasses.md) - Damage-focused subclasses
+- [DEFENSE Subclasses](11_defense_subclasses.md) - Tank and protection subclasses
+- [MOVEMENT Subclasses](12_movement_subclasses.md) - Mobility and evasion subclasses

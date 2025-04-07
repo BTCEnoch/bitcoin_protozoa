@@ -41,22 +41,30 @@ Each creature receives one trait per category, with five categories:
 ### Rarity Levels
 Traits are assigned across six rarity tiers:
 
-- **Common**: Minor boosts (e.g., +5% HP, 49.5% chance).
+- **Common**: Minor boosts (e.g., +5% HP, 40% chance).
 - **Uncommon**: Moderate boosts (e.g., +10% DEFENSE, 30% chance).
-- **Rare**: Significant boosts (e.g., +20% MOVEMENT, 15% chance).
-- **Epic**: Powerful effects (e.g., chain lightning, 4% chance).
-- **Legendary**: Game-changing effects (e.g., double damage for 5 seconds, 1% chance).
+- **Rare**: Significant boosts (e.g., +20% MOVEMENT, 20% chance).
+- **Epic**: Powerful effects (e.g., chain lightning, 8% chance).
+- **Legendary**: Game-changing effects (e.g., double damage for 5 seconds, 1.5% chance).
 - **Mythic**: Extraordinary effects (e.g., time manipulation, 0.5% chance).
 
 ### Assignment and Rarity Odds
 - **Independent Rolls**: Each category's trait is rolled separately.
 - **Adjusted Odds for Rarity**:
-  - Common: 49.5%
+  - Common: 40%
   - Uncommon: 30%
-  - Rare: 15%
-  - Epic: 4%
-  - Legendary: 1%
+  - Rare: 20%
+  - Epic: 8%
+  - Legendary: 1.5%
   - Mythic: 0.5%
+
+### Particle Count Ranges by Rarity
+- **Common (40%)**: 43–95 particles
+- **Uncommon (30%)**: 96–110 particles
+- **Rare (20%)**: 111–125 particles
+- **Epic (8%)**: 126–141 particles
+- **Legendary (1.5%)**: 142–151 particles
+- **Mythic (0.5%)**: 152–220 particles
 - **Perfect Creature Odds**: A creature with five Mythic traits has a 0.5% × 0.5% × 0.5% × 0.5% × 0.5% = 1 in 3.2 trillion chance.
 
 ## 3. Mutation Perks
@@ -104,11 +112,28 @@ Classes add strategic depth by assigning roles based on particle distribution, e
 - **Subclass** (determined by the full ranking of all five groups):
   - Main class determined by highest group
   - Subclass determined by order of remaining four groups
-  - 24 subclasses per main class (4! permutations)
-  - 120 total unique subclasses (5 × 24)
+  - 15 subclasses per main class distributed across rarity tiers
+  - 75 total unique subclasses (5 × 15)
+
+### Subclass Distribution by Rarity
+- **Common**: 4 subclasses per main class
+- **Uncommon**: 3 subclasses per main class
+- **Rare**: 3 subclasses per main class
+- **Epic**: 2 subclasses per main class
+- **Legendary**: 2 subclasses per main class
+- **Mythic**: 1 subclass per main class
 
 ### Class Skills and Modifiers
-- **Base Skills**: Each main class has 3-5 unique skills (e.g., Healer: Heal, Restore)
+- **Base Skills**: Each main class has 3-5 unique skills
+  - **Healer (CORE)**: Heal, Restore, Dispel (removes debuffs from allies)
+  - **Caster (CONTROL)**: Arcane Bolt, Manipulate, Enhance
+  - **Striker (ATTACK)**: Strike, Barrage, Penetrate
+  - **Tank (DEFENSE)**: Shield, Taunt, Fortify
+  - **Rogue (MOVEMENT)**: Dash, Evade, Ambush
+- **CORE Crowd Control Effects**:
+  - Silence: Prevents enemies from using abilities
+  - Confuse: Causes enemies to act unpredictably or attack allies
+  - Blind: Reduces enemy accuracy or vision
 - **Subclass Modifiers**: Skills are modified based on group ranking:
   - Second-highest group: Major skill modification
   - Third-highest group: Secondary effect
@@ -123,10 +148,17 @@ For a Healer with DEFENSE > CONTROL > ATTACK > MOVEMENT ranking:
 - ATTACK (4th): Adds a small damage reflection (10% for 3 seconds)
 - MOVEMENT (5th): Grants a tiny speed boost after casting (5% for 2 seconds)
 
+### Behavior Pool
+- **15 Behaviors Per Group**: Each group has 15 unique behaviors
+- **Role-Specific**: Behaviors are tailored to the group's function (e.g., support for CORE)
+- **Main Class Category-Relevant**: Aligned with the group's overarching theme
+- **Random Assignment**: Behaviors are randomly assigned to subclasses within each group
+
 ### Balancing
-- **Unique Gameplay**: All 120 subclasses have distinct characteristics
+- **Unique Gameplay**: All 75 subclasses have distinct characteristics
 - **Counterplay**: Tanks counter Strikers, Rogues evade Casters, etc.
 - **Skill Synergy**: Traits enhance class skills for further customization
+- **Rarity Scaling**: Higher rarity subclasses have more powerful effects (e.g., longer CC durations)
 
 ## 5. Points-Based Balancing System
 
